@@ -1,63 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        * {box-sizing: border-box;}
-        body {font-family: 'Algerian', sans-serif;}
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {box-sizing: border-box;}
+            body {font-family: 'Algerian', sans-serif;}
 
-        /* Caption text */
-        .textCaption {
-        color: #000;
-        font-size: 35px;
-        padding: 8px 12px;
-        width: 100%;
-        text-align: center;
-        }
+            /* Caption text */
+            .textCaption {
+            color: #000;
+            font-size: 35px;
+            padding: 8px 12px;
+            width: 100%;
+            text-align: center;
+            }
 
-        /* Fading animation */
-        .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-        }
+            /* Fading animation */
+            .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+            }
 
-        @-webkit-keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
-        }
+            @-webkit-keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+            }
 
-        @keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
-        }
-    </style>
-</head>
-<body>
-    <div class="textCaption">Leverage agile frameworks to provide a robust</div>
-    <div class="textCaption">synopsis for high level overviews. Iterative approaches</div>
-    <div class="textCaption">to corporate strategy foster collaborative thinking to</div>
-    <div class="textCaption">further the overall value proposition. Organically grow</div>
-    <div class="textCaption">the holistic world view of disruptive innovation via</div>
-<script>
-    var slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("textCaption");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    
-    slides[slideIndex-1].style.display = "block";  
-    
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-    }
-</script>
-
-</body>
+            @keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="textCaption">Leverage agile frameworks to provide a robust</div>
+        <div class="textCaption">synopsis for high level overviews. Iterative approaches</div>
+        <div class="textCaption">to corporate strategy foster collaborative thinking to</div>
+        <div class="textCaption">further the overall value proposition. Organically grow</div>
+        <div class="textCaption">the holistic world view of disruptive innovation via</div>
+        
+        <script type="text/javascript" src="slides.js"></script>
+    </body>
 </html> 
