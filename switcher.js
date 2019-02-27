@@ -11,5 +11,5 @@ function showQuotes() {
         $(this).text(quotesArray[quoteIndex-1]);
     }).animate({'opacity': 1}, 2000);
 
-    setTimeout(showQuotes, 5000); // Change image every 2 seconds
+    setTimeout(showQuotes, switchSpeed*1000); // Change image every 2 seconds
 }
