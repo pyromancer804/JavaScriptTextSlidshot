@@ -9,4 +9,5 @@ body {font-family: 'Algerian', sans-serif;}
     padding: 8px 12px;
     width: 100%;
     text-align: center;
+    text-shadow: -1px -1px 0 #CEBF94, 1px -1px 0 #CEBF94, -1px 1px 0 #CEBF94, 1px 1px 0 #CEBF94;
 }
